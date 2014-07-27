@@ -98,9 +98,7 @@ class Ps3IpControlHandler(ps3BluetoothDeviceAddress: String) extends HttpHandler
   private def gimxServerStarted = ("/usr/bin/pgrep gimx" !) == 0
 
   private def powerOn() {
-    if (!gimxServerStarted) {
-      startGimxServer(ps3BluetoothDeviceAddress)
-    }
+    startGimxServer(ps3BluetoothDeviceAddress)
   }
 
   private def powerOff() {
