@@ -22,6 +22,11 @@ import scala.util.{Failure, Success, Try}
  * Requires Linux, Oracle Java 7, GIMX (Game Input MultipleXer)
  * and a Bluetooth adapter. Tested on Raspbian Wheezy.
  *
+ * For instructions on how to set up GIMX, see the wiki:
+ *
+ * http://gimx.fr/wiki/index.php?title=RPi
+ * http://gimx.fr/wiki/index.php?title=Command_line#Linux_.2B_bluetooth_.2B_PS3
+ *
  * To run: $ ./sbt "run F0:F0:02:xx:xx:xx"
  */
 object Ps3IpControlProxyServer {
