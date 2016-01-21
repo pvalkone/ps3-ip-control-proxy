@@ -5,7 +5,7 @@ Probably not very useful for other than home theatre integration
 using appropriate remote control software.
 
 Requires Linux, Oracle Java 7, GIMX (Game Input MultipleXer)
-and a Bluetooth adapter. Tested on Raspbian Wheezy.
+and a Bluetooth adapter. Tested on Raspbian "Wheezy" and "Jessie".
 
 For instructions on how to set up GIMX, see the wiki:
 
